@@ -25,5 +25,7 @@ This project focuses on the development of an **Autonomous Mobile Mapping and Tr
 *   Processing 3D Point Clouds to generate high-resolution spatial maps.
 *   Validating positional drift rates in low-light bench environments.
 
+#"Algorithm development based on Mohta et al. (GRASP Lab) logic, implemented in ROS 2 Humble."
+
 ## How to Run (Work in Progress)
 *(Instructions on how to clone and launch the ROS 2 workspace will be added as code is pushed)*

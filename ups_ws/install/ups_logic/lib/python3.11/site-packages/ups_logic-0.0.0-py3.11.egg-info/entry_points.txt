@@ -1,0 +1,3 @@
+[console_scripts]
+ukf_navigator = ups_logic.ukf_navigator:main
+

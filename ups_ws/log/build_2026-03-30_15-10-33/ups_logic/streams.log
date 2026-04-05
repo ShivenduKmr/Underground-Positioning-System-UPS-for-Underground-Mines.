@@ -1,0 +1,37 @@
+[0.739s] Invoking command in '/home/sk/ups_ws/src/ups_logic': PYTHONPATH=/home/sk/ups_ws/build/ups_logic/prefix_override:/home/sk/miniconda3/envs/drone_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages:${PYTHONPATH} /home/sk/miniconda3/envs/drone_env/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ups_logic build --build-base /home/sk/ups_ws/build/ups_logic/build install --record /home/sk/ups_ws/build/ups_logic/install.log --single-version-externally-managed install_data
+[0.976s] running egg_info
+[0.976s] creating ../../build/ups_logic/ups_logic.egg-info
+[0.976s] writing ../../build/ups_logic/ups_logic.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../build/ups_logic/ups_logic.egg-info/dependency_links.txt
+[0.977s] writing entry points to ../../build/ups_logic/ups_logic.egg-info/entry_points.txt
+[0.977s] writing requirements to ../../build/ups_logic/ups_logic.egg-info/requires.txt
+[0.977s] writing top-level names to ../../build/ups_logic/ups_logic.egg-info/top_level.txt
+[0.977s] writing manifest file '../../build/ups_logic/ups_logic.egg-info/SOURCES.txt'
+[0.979s] reading manifest file '../../build/ups_logic/ups_logic.egg-info/SOURCES.txt'
+[0.979s] writing manifest file '../../build/ups_logic/ups_logic.egg-info/SOURCES.txt'
+[0.979s] running build
+[0.979s] running build_py
+[0.980s] creating /home/sk/ups_ws/build/ups_logic/build
+[0.980s] creating /home/sk/ups_ws/build/ups_logic/build/lib
+[0.980s] creating /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic
+[0.980s] copying ups_logic/__init__.py -> /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic
+[0.980s] copying ups_logic/ukf_navigator.py -> /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic
+[0.981s] running install
+[0.981s] running install_lib
+[0.981s] creating /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic
+[0.981s] copying /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic/__init__.py -> /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic
+[0.981s] copying /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic/ukf_navigator.py -> /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic
+[0.982s] byte-compiling /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic/__init__.py to __init__.cpython-311.pyc
+[0.982s] byte-compiling /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic/ukf_navigator.py to ukf_navigator.cpython-311.pyc
+[0.983s] running install_data
+[0.983s] creating /home/sk/ups_ws/install/ups_logic/share/ament_index
+[0.983s] creating /home/sk/ups_ws/install/ups_logic/share/ament_index/resource_index
+[0.983s] creating /home/sk/ups_ws/install/ups_logic/share/ament_index/resource_index/packages
+[0.983s] copying resource/ups_logic -> /home/sk/ups_ws/install/ups_logic/share/ament_index/resource_index/packages
+[0.983s] copying package.xml -> /home/sk/ups_ws/install/ups_logic/share/ups_logic
+[0.983s] running install_egg_info
+[0.985s] Copying ../../build/ups_logic/ups_logic.egg-info to /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic-0.0.0-py3.11.egg-info
+[0.990s] running install_scripts
+[1.009s] Installing ukf_navigator script to /home/sk/ups_ws/install/ups_logic/lib/ups_logic
+[1.010s] writing list of installed files to '/home/sk/ups_ws/build/ups_logic/install.log'
+[1.071s] Invoked command in '/home/sk/ups_ws/src/ups_logic' returned '0': PYTHONPATH=/home/sk/ups_ws/build/ups_logic/prefix_override:/home/sk/miniconda3/envs/drone_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages:${PYTHONPATH} /home/sk/miniconda3/envs/drone_env/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ups_logic build --build-base /home/sk/ups_ws/build/ups_logic/build install --record /home/sk/ups_ws/build/ups_logic/install.log --single-version-externally-managed install_data

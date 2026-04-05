@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000127] (-) JobUnselected: {'identifier': 'ups_simulation'}
+[0.000213] (ups_logic) JobQueued: {'identifier': 'ups_logic', 'dependencies': OrderedDict()}
+[0.000499] (ups_logic) JobStarted: {'identifier': 'ups_logic'}
+[0.099901] (-) TimerEvent: {}
+[0.200171] (-) TimerEvent: {}
+[0.300682] (-) TimerEvent: {}
+[0.400984] (-) TimerEvent: {}
+[0.501277] (-) TimerEvent: {}
+[0.601547] (-) TimerEvent: {}
+[0.701816] (-) TimerEvent: {}
+[0.738636] (ups_logic) Command: {'cmd': ['/home/sk/miniconda3/envs/drone_env/bin/python3.11', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ups_logic', 'build', '--build-base', '/home/sk/ups_ws/build/ups_logic/build', 'install', '--record', '/home/sk/ups_ws/build/ups_logic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sk/ups_ws/src/ups_logic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sk', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/snap/webots/current/lib/controller:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sk', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/sk', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '13711', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/sk/ups_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sk', '_': '/home/sk/miniconda3/envs/drone_env/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ParaView-5.11.0/bin:/home/sk/miniconda3/condabin:/home/sk/miniconda3/envs/drone_env/bin:/usr/local/webots/bin:/opt/ros/humble/bin:/usr/bin:/home/sk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sk-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/2007,unix/sk-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/2007', 'PYTHON_EXECUTABLE': '/usr/bin/python3', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7567107f_04c5_4eb7_a286_2748ce59bf96', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.164', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sk/ups_ws/install/ups_logic:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/sk/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sk/ups_ws/build/ups_logic', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/sk/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sk/ups_ws/build/ups_logic/prefix_override:/home/sk/miniconda3/envs/drone_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages:/home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages:/snap/webots/current/lib/controller/python:/home/sk/drone_ws/src/webots_drone_control/install/webots_drone_control/lib/python3.10/site-packages:/home/sk/drone_ws/install/webots_drone_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/snap/webots/current/usr/lib/webots/lib/controller/python:/usr/local/webots/lib/controller/python:/usr/local/webots/lib/controller/python', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.801917] (-) TimerEvent: {}
+[0.902227] (-) TimerEvent: {}
+[0.975832] (ups_logic) StdoutLine: {'line': b'running egg_info\n'}
+[0.976532] (ups_logic) StdoutLine: {'line': b'creating ../../build/ups_logic/ups_logic.egg-info\n'}
+[0.976818] (ups_logic) StdoutLine: {'line': b'writing ../../build/ups_logic/ups_logic.egg-info/PKG-INFO\n'}
+[0.977040] (ups_logic) StdoutLine: {'line': b'writing dependency_links to ../../build/ups_logic/ups_logic.egg-info/dependency_links.txt\n'}
+[0.977152] (ups_logic) StdoutLine: {'line': b'writing entry points to ../../build/ups_logic/ups_logic.egg-info/entry_points.txt\n'}
+[0.977250] (ups_logic) StdoutLine: {'line': b'writing requirements to ../../build/ups_logic/ups_logic.egg-info/requires.txt\n'}
+[0.977357] (ups_logic) StdoutLine: {'line': b'writing top-level names to ../../build/ups_logic/ups_logic.egg-info/top_level.txt\n'}
+[0.977548] (ups_logic) StdoutLine: {'line': b"writing manifest file '../../build/ups_logic/ups_logic.egg-info/SOURCES.txt'\n"}
+[0.979300] (ups_logic) StdoutLine: {'line': b"reading manifest file '../../build/ups_logic/ups_logic.egg-info/SOURCES.txt'\n"}
+[0.979777] (ups_logic) StdoutLine: {'line': b"writing manifest file '../../build/ups_logic/ups_logic.egg-info/SOURCES.txt'\n"}
+[0.979904] (ups_logic) StdoutLine: {'line': b'running build\n'}
+[0.979958] (ups_logic) StdoutLine: {'line': b'running build_py\n'}
+[0.980755] (ups_logic) StdoutLine: {'line': b'creating /home/sk/ups_ws/build/ups_logic/build\n'}
+[0.980833] (ups_logic) StdoutLine: {'line': b'creating /home/sk/ups_ws/build/ups_logic/build/lib\n'}
+[0.980882] (ups_logic) StdoutLine: {'line': b'creating /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic\n'}
+[0.980931] (ups_logic) StdoutLine: {'line': b'copying ups_logic/__init__.py -> /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic\n'}
+[0.980972] (ups_logic) StdoutLine: {'line': b'copying ups_logic/ukf_navigator.py -> /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic\n'}
+[0.981003] (ups_logic) StdoutLine: {'line': b'running install\n'}
+[0.981033] (ups_logic) StdoutLine: {'line': b'running install_lib\n'}
+[0.981280] (ups_logic) StdoutLine: {'line': b'creating /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic\n'}
+[0.981348] (ups_logic) StdoutLine: {'line': b'copying /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic/__init__.py -> /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic\n'}
+[0.981457] (ups_logic) StdoutLine: {'line': b'copying /home/sk/ups_ws/build/ups_logic/build/lib/ups_logic/ukf_navigator.py -> /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic\n'}
+[0.982070] (ups_logic) StdoutLine: {'line': b'byte-compiling /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic/__init__.py to __init__.cpython-311.pyc\n'}
+[0.982336] (ups_logic) StdoutLine: {'line': b'byte-compiling /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic/ukf_navigator.py to ukf_navigator.cpython-311.pyc\n'}
+[0.983192] (ups_logic) StdoutLine: {'line': b'running install_data\n'}
+[0.983424] (ups_logic) StdoutLine: {'line': b'creating /home/sk/ups_ws/install/ups_logic/share/ament_index\n'}
+[0.983489] (ups_logic) StdoutLine: {'line': b'creating /home/sk/ups_ws/install/ups_logic/share/ament_index/resource_index\n'}
+[0.983553] (ups_logic) StdoutLine: {'line': b'creating /home/sk/ups_ws/install/ups_logic/share/ament_index/resource_index/packages\n'}
+[0.983606] (ups_logic) StdoutLine: {'line': b'copying resource/ups_logic -> /home/sk/ups_ws/install/ups_logic/share/ament_index/resource_index/packages\n'}
+[0.983738] (ups_logic) StdoutLine: {'line': b'copying package.xml -> /home/sk/ups_ws/install/ups_logic/share/ups_logic\n'}
+[0.983869] (ups_logic) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.985794] (ups_logic) StdoutLine: {'line': b'Copying ../../build/ups_logic/ups_logic.egg-info to /home/sk/ups_ws/install/ups_logic/lib/python3.11/site-packages/ups_logic-0.0.0-py3.11.egg-info\n'}
+[0.989935] (ups_logic) StdoutLine: {'line': b'running install_scripts\n'}
+[1.002357] (-) TimerEvent: {}
+[1.009815] (ups_logic) StdoutLine: {'line': b'Installing ukf_navigator script to /home/sk/ups_ws/install/ups_logic/lib/ups_logic\n'}
+[1.010639] (ups_logic) StdoutLine: {'line': b"writing list of installed files to '/home/sk/ups_ws/build/ups_logic/install.log'\n"}
+[1.070653] (ups_logic) CommandEnded: {'returncode': 0}
+[1.085432] (ups_logic) JobEnded: {'identifier': 'ups_logic', 'rc': 0}
+[1.086374] (-) EventReactorShutdown: {}

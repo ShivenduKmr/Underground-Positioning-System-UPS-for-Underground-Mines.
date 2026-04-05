@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <model name="ups_drone">
+    <link name="base_link">
+      <pose>0 0 0.1 0 0 0</pose>
+      <inertial><mass>1.5</mass><inertia><ixx>0.034</ixx><iyy>0.034</iyy><izz>0.05</izz></inertia></inertial>
+      <visual name="v"><geometry><box><size>0.3 0.3 0.1</size></box></geometry><material><ambient>0 1 0 1</ambient></material></visual>
+      <collision name="c"><geometry><box><size>0.3 0.3 0.1</size></box></geometry></collision>
+
+      <!-- SENSORS -->
+      <sensor name="imu" type="imu"><always_on>1</always_on><update_rate>100</update_rate><topic>imu</topic></sensor>
+      <sensor name="camera" type="camera"><pose>0.2 0 0 0 0 0</pose><update_rate>20</update_rate><topic>camera</topic>
+        <gz_frame_id>ups_drone/base_link</gz_frame_id><camera><horizontal_fov>1.5</horizontal_fov><image><width>640</width><height>480</height></image></camera></sensor>
+      <sensor name="lidar" type="gpu_lidar"><pose>0 0 0.1 0 0 0</pose><topic>scan</topic><gz_frame_id>ups_drone/base_link</gz_frame_id>
+        <ray><scan><horizontal><samples>360</samples><resolution>1</resolution><min_angle>-3.14</min_angle><max_angle>3.14</max_angle></horizontal></scan><range><min>0.1</min><max>10</max></range></ray></sensor>
+    </link>
+    <plugin filename="libignition-gazebo-velocity-control-system.so" name="ignition::gazebo::systems::VelocityControl"><link_name>base_link</link_name></plugin>
+    <plugin filename="libignition-gazebo-odometry-publisher-system.so" name="ignition::gazebo::systems::OdometryPublisher"><dimensions>3</dimensions></plugin>
+  </model>
+</sdf>

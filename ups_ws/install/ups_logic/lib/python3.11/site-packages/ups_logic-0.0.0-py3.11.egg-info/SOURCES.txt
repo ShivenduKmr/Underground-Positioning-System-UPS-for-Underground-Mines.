@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ups_logic/ups_logic.egg-info/PKG-INFO
+../../build/ups_logic/ups_logic.egg-info/SOURCES.txt
+../../build/ups_logic/ups_logic.egg-info/dependency_links.txt
+../../build/ups_logic/ups_logic.egg-info/entry_points.txt
+../../build/ups_logic/ups_logic.egg-info/requires.txt
+../../build/ups_logic/ups_logic.egg-info/top_level.txt
+../../build/ups_logic/ups_logic.egg-info/zip-safe
+resource/ups_logic
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+ups_logic/__init__.py
+ups_logic/ukf_navigator.py
